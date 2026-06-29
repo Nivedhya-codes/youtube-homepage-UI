@@ -26,10 +26,20 @@
 .left-portion img{
     width:100px;
     height:50px;
+    cursor: pointer;
 }
 #hamburger-icon{
     width:25px;
     height:25px;
+}
+.hamburger-btn{
+    border: none;
+    padding: 3px;
+    background-color: white;
+    border-radius: 9px;
+}
+.hamburger-btn:hover{
+    background-color: #eee8e8;
 }
 .middle-portion{
     flex:1;
@@ -93,6 +103,7 @@ input::placeholder{
     align-items:center;
     gap:10px;
     width:190px;
+    cursor: pointer;
 }
 .right-portion img{
     width:30px;
@@ -131,9 +142,27 @@ input::placeholder{
 .label{
     margin-bottom: 35px;
     cursor: pointer;
+    border: none;
+    background-color: white;
+    padding:8px
 }
-.label span{
-    margin-left: 5px;
+.label2{
+    margin-bottom: 35px;
+    cursor: pointer;
+    border: none;
+    background-color: white;
+
+}
+.label:hover{
+    background-color: #eee8e8;
+    border-radius: 8px;
+}
+.label2:hover{
+    background-color:#eee8e8;
+    border-radius: 8px;
+}
+.label2 span{
+    margin-left: 1px;
 }
 .shorts-icon{
     width:24px;
